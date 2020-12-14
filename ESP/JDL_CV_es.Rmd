@@ -1,0 +1,214 @@
+---
+#citeproc: no
+graphics: yes
+name: Juan David
+surname: Leongómez
+position: "Profesor Asociado"
+address: "Facultad de Psicología, Universidad El Bosque"
+phone: +57-1 6489000 Ext. 1901
+www: jdleongomez.info
+profilepic: JDL.jpg
+email: "jleongomez@unbosque.edu.co"
+aboutme: |
+  Soy un científico principalmente interesado en el comportamiento humano, y más recientemente en métodos cuantitativos y ciencia reproducible.
+date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d %B, %Y')`"
+csl: "csl/apa7-cv.csl"
+headcolor: 008080
+nocite: "@*"
+knit: bookdown::render_book
+bibliography_journals: "../journal.bib"
+bibliography_divulgation: "../divulgation.bib"
+bibliography_working_paper: "../working_paper.bib"
+bibliography_IA: "../IA.bib"
+---
+
+```{r setup, include=FALSE, cache = FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+library(RefManageR)
+RefManageR::BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           sorting = "",
+           cite.style = "alphabetic",
+           sorting = "ydnt",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = FALSE)
+
+library(vitae)
+library(tidyverse)
+library(ezpickr)
+```
+
+# Acerca de mí
+
+Soy Profesor Asociado e investigador del [\textcolor{teal}{Laboratorio de Análisis del Comportamiento Humano (LACH)}](https://sites.google.com/unbosque.edu.co/lach-es), de la [\textcolor{teal}{Facultad de Psicología}](https://www.uelbosque.edu.co/psicologia) de la [\textcolor{teal}{Universidad El Bosque}](https://www.uelbosque.edu.co/) en Bogotá, Colombia. Mis intereses de investigación incluyen los procesos de selección de pareja y la comunicación vocal en humanos, con una aspiración hacia la comprensión de la musicalidad. También estoy interesado en bioacústica y psicoacústica, así como los efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran cambios dinámicos intra-individuo en el tono de la voz en respuesta al estatus social del oyente, y he demostrado fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Cada día me apasiono más por los métodos cuantitativos y la programación en R (usando RStudio), para promover la ciencia abierta y la reproducibilidad.
+
+# Métodos de Investigación Principales
+
+ * Diseños experimentales
+ * Cuestionarios en línea 
+ * Grabación de voz
+ * Análisis acústico
+ * Fotografías faciales
+ * Morfometrías geométricas
+ * Antropometría
+ * Investigación reproducible basada en la ciencia de datos
+
+# Habilidades
+
+\begin{cvskills}
+  \cvskill
+    {Ciencia de Datos}
+    {R (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
+
+  \cvskill
+    {Informes reproducibles}
+    {Markdown/Rmarkdown}
+
+  \cvskill
+    {Investigación Cuantitativa}
+    {Modelos lineales generales y generalizados, modelos de efectos lineales mixtos, PCA}
+
+  \cvskill
+    {Software}
+    {R, RStudio, Praat, Audacity, InkScape, Mendeley, Zotero}
+
+  \cvskill
+    {Idiomas}
+    {Inglés/Español}
+\end{cvskills}
+
+# Areas de Investigacion
+
+ * Voz humana
+ * Modulación vocal
+ * Elección de pareja
+ * Comportamiento humano
+ * Hormonas y comportamiento
+
+# Educación
+
+```{r education}
+ezpickr::pick("data/education.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Experiencia Laboral
+
+```{r working-experience}
+ezpickr::pick("data/working-experience.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Experiencia Docente
+
+```{r teaching-experience}
+ezpickr::pick("data/teaching-experience.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Becas, Premios y Honores
+
+```{r award}
+ezpickr::pick("data/award.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Subvenciones
+
+```{r grant}
+ezpickr::pick("data/grant.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Publicaciones
+
+## *Preprints* y Artículos en Revisión
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_working_paper}
+:::
+\endgroup
+
+## Artículos en Revistas Científicas
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_journals}
+:::
+\endgroup
+
+## Articulos de Divulgacion
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_divulgation}
+:::
+\endgroup
+
+# Investigación Abierta (canal de YouTube)
+
+[\textcolor{teal}{Investigación Abierta}](https://www.youtube.com/user/juanleongomez/featured) es un canal de YouTube donde incluyo videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_IA}
+:::
+\endgroup
+
+# Presentaciones en Conferencias, Pósters y Talleress
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("data/poster.txt")`
+
+\endgroup
+
+# Supervisión de Posgrado y Pregrado
+
+```{r supervision}
+ezpickr::pick("data/supervision.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Roles Editoriales
+
+Mi registro internacional verificado como par académico está disponible en mi perfil de [\textcolor{teal}{Publons}](https://publons.com/researcher/1333339/juan-david-leongomez/).
+
+```{r service}
+ezpickr::pick("data/service.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Membresías
+
+## Actualmente
+
+  * [\textcolor{teal}{International Society for Human Ethology (ISHE)}](https://ishe.org/)
+  * [\textcolor{teal}{Association for Psychological Science (APS)}](https://www.psychologicalscience.org/)
+  
+## Anteriormente
+
+  * [\textcolor{teal}{European Human Behaviour and Evolution Association (EHBEA)}](https://www.cambridge.org/core/membership/ehbea)
+
+<!-- *`r Sys.Date()`* -->
