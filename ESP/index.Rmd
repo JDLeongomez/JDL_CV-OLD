@@ -7,7 +7,7 @@ position: "Profesor Asociado"
 address: "Facultad de Psicología, Universidad El Bosque"
 phone: +57-1 6489000 Ext. 1901
 www: jdleongomez.info
-profilepic: JDL.jpg
+profilepic: "../JDL.jpg"
 email: "jleongomez@unbosque.edu.co"
 aboutme: |
   Soy un científico principalmente interesado en el comportamiento humano, y más recientemente en métodos cuantitativos y ciencia reproducible.
@@ -65,7 +65,7 @@ Soy Profesor Asociado e investigador del [\textcolor{teal}{Laboratorio de Análi
 
   \cvskill
     {Informes reproducibles}
-    {Markdown/Rmarkdown}
+    {Markdown/Rmarkdown (incluyendo {\fontfamily{cmr}\selectfont\LaTeX})}
 
   \cvskill
     {Investigación Cuantitativa}

@@ -7,7 +7,7 @@ position: "Associate Professor"
 address: "Faculty of Psychology, Universidad El Bosque"
 phone: +57-1 6489000 Ext. 1901
 www: jdleongomez.info
-profilepic: JDL.jpg
+profilepic: "../JDL.jpg"
 email: "jleongomez@unbosque.edu.co"
 aboutme: |
   I am a scientist mainly interested in human behaviour, and more recently quantitative methods and reproducible science.
@@ -61,11 +61,11 @@ I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behavi
 \begin{cvskills}
   \cvskill
     {Data Science}
-    {R (advanced: all data wrangling, analysis, plots and tables made in R)}
+    {R (advanced: all data wrangling, analysis, plots and tables -and even this CV- made in R)}
 
   \cvskill
     {Reproducible Reports}
-    {Markdown/Rmarkdown}
+    {Markdown/Rmarkdown (including {\fontfamily{cmr}\selectfont\LaTeX})}
 
   \cvskill
     {Quantitative Research}

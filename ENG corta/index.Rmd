@@ -7,7 +7,7 @@ position: "Associate Professor"
 address: "Faculty of Psychology, Universidad El Bosque"
 phone: +57-1 6489000 Ext. 1901
 www: jdleongomez.info
-profilepic: JDL.jpg
+profilepic: "../JDL.jpg"
 email: "jleongomez@unbosque.edu.co"
 aboutme: |
   I am a researcher mainly interested in human behaviour, and more recently quantitative methods and reproducible science.
@@ -41,18 +41,18 @@ library(ezpickr)
 
 # About me
 
-I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behaviour Lab (LACH)}](https://sites.google.com/unbosque.edu.co/lach-es), [\textcolor{teal}{Faculty of Psychology}](https://www.uelbosque.edu.co/psicologia), at [\textcolor{teal}{Universidad El Bosque}](https://www.uelbosque.edu.co/) in Bogota, Colombia. My research interests include mate choice and human vocal communication, with an aspiration towards understanding musicality. I am also interested in bioacoustics and psychoacoustics, as well as hormonal effects on human behaviour. I published among the first articles showing within-individual changes in voice pitch in response to the social status of the listener, and have demonstrated strong effects of voice modulation on listeners in courtship contexts. I am very passionate about quantitative methods and R programming, as a tool to promote reproducibility and open science.
+I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behaviour Lab (LACH)}](https://sites.google.com/unbosque.edu.co/lach-es), [\textcolor{teal}{Faculty of Psychology}](https://www.uelbosque.edu.co/psicologia), at [\textcolor{teal}{Universidad El Bosque}](https://www.uelbosque.edu.co/) in Bogota, Colombia. My research interests include mate choice and human vocal communication, with an aspiration towards understanding musicality. I am also interested in hormonal effects on human behaviour. I published among the first articles showing within-individual changes in voice pitch in response to the social status of the listener, and have demonstrated strong effects of voice modulation on listeners in courtship contexts. I am very passionate about quantitative methods and R programming, as a tool to promote reproducibility and open science.
 
 # Skills
 
 \begin{cvskills}
   \cvskill
     {Data Science}
-    {R (advanced: all data wrangling, analysis, plots and tables, and even this CV made in R)}
+    {R (advanced: all data wrangling, analysis, plots and tables -and even this CV- made in R)}
 
   \cvskill
     {Reproducible Report}
-    {Markdown/Rmarkdown}
+    {Markdown/Rmarkdown (including {\fontfamily{cmr}\selectfont\LaTeX})}
 
   \cvskill
     {Quantitative Research}
@@ -77,7 +77,7 @@ ezpickr::pick("data/education.xlsx") %>%
 
 # Working and Teaching Experience
 
-For a full list, and a description of responsibilities, please check [\textcolor{teal}{my website}](https://jdleongomez.info/en/#experience).
+For a full list, and a description of responsibilities, please check [\textcolor{teal}{my website}](https://jdleongomez.info/en/#experience) or my [\textcolor{teal}{long CV}](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
 ```{r working-experience}
 ezpickr::pick("data/working-experience.xlsx") %>%
@@ -87,11 +87,11 @@ ezpickr::pick("data/working-experience.xlsx") %>%
 
 # Accomplishments
 
-For information on **grants**, **scholarships**, **awards** and **prizes**, please check [\textcolor{teal}{my website}](https://jdleongomez.info/en/#accomplishments).
+For information on **grants**, **scholarships**, **awards** and **prizes**, please check [\textcolor{teal}{my website}](https://jdleongomez.info/en/#accomplishments) or my [\textcolor{teal}{long CV}](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
 # Selected Publications
 
-For a full list, please check the publications section on [\textcolor{teal}{my website}](https://jdleongomez.info/en/publication/).
+For a full list, please check the publications section on [\textcolor{teal}{my website}](https://jdleongomez.info/en/publication/) or my [\textcolor{teal}{long CV}](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
 ## Selected Preprints and Articles Under Review
 
@@ -119,7 +119,7 @@ For a full list, please check the publications section on [\textcolor{teal}{my w
 
 # Postgraduate Supervision
 
-For a full list, including undergraduate supervision, please check [\textcolor{teal}{my website}](https://jdleongomez.info/en/#experience).
+For a full list, including undergraduate supervision, please check [\textcolor{teal}{my website}](https://jdleongomez.info/en/#experience) or my [\textcolor{teal}{long CV}](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
 ```{r supervision}
 ezpickr::pick("data/supervision.xlsx") %>%
@@ -129,6 +129,6 @@ ezpickr::pick("data/supervision.xlsx") %>%
 
 # Editorial Appointments
 
-I am an ad-hoc reviewer for a variety of journals including [\textcolor{teal}{Proceedings of the Royal Society B: Biological Sciences}](https://royalsocietypublishing.org/journal/rspb), [\textcolor{teal}{Royal Society Open Science}](https://royalsocietypublishing.org/journal/rsos), [\textcolor{teal}{Basic and Applied Social Psychology}](https://www.tandfonline.com/toc/hbas20/current), and [\textcolor{teal}{Frontiers in Psychology}](https://www.frontiersin.org/journals/psychology) where I am currently a [\textcolor{teal}{Review Editor}](https://loop.frontiersin.org/people/438954/overview) for the [\textcolor{teal}{Evolutionary Psychology specialty section}](https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology). My verified review record is available from my [\textcolor{teal}{Publons}](https://publons.com/researcher/1333339/juan-david-leongomez/) profile. 
+I am currently serving as a guest editor of a forthcoming theme issue on [\textcolor{teal}{Philosophical Transactions B}](https://royalsocietypublishing.org/journal/rstb). I am an ad-hoc reviewer for a variety of journals including [\textcolor{teal}{Proceedings of the Royal Society B: Biological Sciences}](https://royalsocietypublishing.org/journal/rspb), [\textcolor{teal}{Royal Society Open Science}](https://royalsocietypublishing.org/journal/rsos), [\textcolor{teal}{Basic and Applied Social Psychology}](https://www.tandfonline.com/toc/hbas20/current), and [\textcolor{teal}{Frontiers in Psychology}](https://www.frontiersin.org/journals/psychology) where I am currently a [\textcolor{teal}{Review Editor}](https://loop.frontiersin.org/people/438954/overview) for the [\textcolor{teal}{Evolutionary Psychology specialty section}](https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology).  My verified review record is available from my [\textcolor{teal}{Publons}](https://publons.com/researcher/1333339/juan-david-leongomez/) profile.
 
 <!-- *`r Sys.Date()`* -->
