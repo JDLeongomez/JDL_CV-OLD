@@ -1,1 +1,1 @@
-This repository contains the code and files to create my CV in both English and Spanish. It based on the `short_cv` created by JooYoung Seo. For a description, please check his [CV repository](https://github.com/jooyoungseo/jy_CV).
+This repository contains the code and files to create my CV in both English and Spanish. It based on the `short_cv` created by [JooYoung Seo](https://github.com/jooyoungseo). For a description, please check his [CV repository](https://github.com/jooyoungseo/jy_CV).
