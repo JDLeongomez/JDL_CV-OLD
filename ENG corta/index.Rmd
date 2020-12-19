@@ -10,7 +10,7 @@ www: jdleongomez.info
 profilepic: "../JDL.jpg"
 email: "jleongomez@unbosque.edu.co"
 aboutme: |
-  I am a researcher mainly interested in human behaviour, and more recently quantitative methods and reproducible science.
+  I am a scientist mainly interested in human behaviour, as well as quantitative methods, and reproducible science.
 date: "`r Sys.setlocale('LC_TIME','English');format(Sys.Date(),'%d %B, %Y')`"
 csl: "csl/apa7-cv.csl"
 headcolor: 008080
