@@ -172,7 +172,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 :::
 \endgroup
 
-# Conference Presentations,  Posters and Workshops
+# Conference Presentations, Posters and Workshops
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -196,6 +196,14 @@ My verified review record is available from my [\textcolor{teal}{Publons}](https
 
 ```{r service}
 ezpickr::pick("data/service.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Scientific Events
+
+```{r event}
+ezpickr::pick("data/event.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
