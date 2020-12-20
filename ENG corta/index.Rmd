@@ -119,7 +119,7 @@ For a full list, please check the publications section on [\textcolor{teal}{my w
 
 # Postgraduate Supervision
 
-For a full list, including undergraduate supervision, please check [\textcolor{teal}{my website}](https://jdleongomez.info/en/#experience) or my [\textcolor{teal}{long CV}](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
+For a full list, including undergraduate supervision, please check [\textcolor{teal}{my website}](https://jdleongomez.info/en/team/#students) or my [\textcolor{teal}{long CV}](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
 ```{r supervision}
 ezpickr::pick("data/supervision.xlsx") %>%
