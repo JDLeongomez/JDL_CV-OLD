@@ -53,11 +53,11 @@ I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behavi
 
   \cvskill
     {Reproducible Report}
-    {Markdown/Rmarkdown (including {\fontfamily{cmr}\selectfont\LaTeX})}
+    {Markdown/Rmarkdown (including {\fontfamily{cmr}\selectfont\LaTeX} and HTML\faHtml5)}
 
   \cvskill
     {Quantitative Research}
-    {General and Generalised Linear Models, Mixed Effects Models, PCA}
+    {General and Generalised Linear Models, Linear Mixed-effects Models}
 
   \cvskill
     {Software}

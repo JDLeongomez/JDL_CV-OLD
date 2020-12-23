@@ -53,11 +53,11 @@ Soy Profesor Asociado [\textcolor{teal}{Laboratorio de Análisis del Comportamie
 
   \cvskill
     {Informes reproducibles}
-    {Markdown/Rmarkdown (incluyendo {\fontfamily{cmr}\selectfont\LaTeX})}
+    {Markdown/Rmarkdown (incluyendo {\fontfamily{cmr}\selectfont\LaTeX} y HTML\faHtml5)}
 
   \cvskill
     {Investigación Cuantitativa}
-    {Modelos lineales generales y generalizados, modelos de efectos lineales mixtos, PCA}
+    {Modelos lineales generales y generalizados, modelos de efectos mixtos}
 
   \cvskill
     {Software}
