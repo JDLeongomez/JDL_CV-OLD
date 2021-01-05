@@ -78,7 +78,7 @@ ezpickr::pick("data/education.xlsx") %>%
 
 # Experiencia laboral y docente
 
-Para una lista completa, y una descripción de las responsabilidades, por favor consulta mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/#experience) o mi [\textcolor{teal}{CV larga}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa y descripción de responsabilidades, por favor consulta mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/#experience) o mi [\textcolor{teal}{CV detallada}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 ```{r working-experience}
 ezpickr::pick("data/working-experience.xlsx") %>%
@@ -87,11 +87,11 @@ ezpickr::pick("data/working-experience.xlsx") %>%
 ```
 
 # Logros
-Para información sobre **subvenciones**, **becas** y **premios**, por favor visita mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/#accomplishments) o mi [\textcolor{teal}{CV larga}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para información sobre **subvenciones**, **becas** y **premios**, por favor visita mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/#accomplishments) o mi [\textcolor{teal}{CV detallada}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 # Publicaciones Seleccionadas
 
-Para una lista completa, por favor visita la sección de publicaciones en mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/publication/) o mi [\textcolor{teal}{CV larga}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa, por favor visita la sección de publicaciones en mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/publication/) o mi [\textcolor{teal}{CV detallada}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 ## *Preprints* y Artículos en Revisión Seleccionados
 
@@ -120,7 +120,7 @@ Para una lista completa, por favor visita la sección de publicaciones en mi [\t
 
 # Supervisión de Posgrado
 
-Para una lista completa, incluyendo la supervisión de pregrado, por favor visita mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/team/#students) o mi [\textcolor{teal}{CV larga}](https://jdleongomez.info/es/files/jdl_cv_es.pdf)
+Para una lista completa, incluyendo la supervisión de pregrado, por favor visita mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/team/#students) o mi [\textcolor{teal}{CV detallada}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 ```{r supervision}
 ezpickr::pick("data/supervision.xlsx") %>%
