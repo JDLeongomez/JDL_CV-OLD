@@ -214,10 +214,10 @@ ezpickr::pick("data/event.xlsx") %>%
 ## Current
 
   * [\textcolor{teal}{International Society for Human Ethology (ISHE)}](https://ishe.org/)
-  * [\textcolor{teal}{Association for Psychological Science (APS)}](https://www.psychologicalscience.org/)
-  
+
 ## Past
 
   * [\textcolor{teal}{European Human Behaviour and Evolution Association (EHBEA)}](https://www.cambridge.org/core/membership/ehbea)
+  * [\textcolor{teal}{Association for Psychological Science (APS)}](https://www.psychologicalscience.org/)
 
 <!-- *`r Sys.Date()`* -->
