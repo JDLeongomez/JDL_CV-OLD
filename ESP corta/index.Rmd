@@ -48,7 +48,7 @@ Soy Profesor Asociado [\textcolor{teal}{Laboratorio de Análisis del Comportamie
 
 \begin{cvskills}
   \cvskill
-    {Ciencia de Datos}
+    {Programación}
     {R (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
 
   \cvskill
@@ -57,7 +57,7 @@ Soy Profesor Asociado [\textcolor{teal}{Laboratorio de Análisis del Comportamie
 
   \cvskill
     {Investigación Cuantitativa}
-    {Modelos lineales generales y generalizados, modelos de efectos mixtos}
+    {Modelos lineales generales y generalizados, modelos de efectos mixtos, selección y promediación de modelos}
 
   \cvskill
     {Software}
