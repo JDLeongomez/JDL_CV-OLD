@@ -13,6 +13,7 @@ github: JDLeongomez
 aboutme: |
   I am a scientist mainly interested in human behaviour, as well as quantitative methods, and reproducible science.
 date: "`r Sys.setlocale('LC_TIME','English');format(Sys.Date(),'%d %B, %Y')`"
+header-includes: \usepackage{multicol}
 csl: "csl/apa7-cv.csl"
 headcolor: 008080
 nocite: "@*"
@@ -48,14 +49,18 @@ I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behavi
 
 # Primary Research Methods
 
- * Experimental designs
- * Online questionnaires 
- * Voice recording
- * Acoustic analysis
- * Facial photographs
- * Geometric morphometrics
- * Anthropometry
- * Data Science-Based Reproducible Research
+\begin{multicols}{2}
+\begin{itemize}
+ \item Experimental designs
+ \item Online questionnaires 
+ \item Voice recording
+ \item Acoustic analysis
+ \item Facial photographs
+ \item Geometric morphometrics
+ \item Anthropometry
+ \item Reproducible Research
+\end{itemize}
+\end{multicols}
 
 # Skills
 

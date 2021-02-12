@@ -13,6 +13,7 @@ email: "juanleongomez@gmail.com"
 aboutme: |
   Soy un científico interesado principalmente en el comportamiento humano, así como en los métodos cuantitativos y la ciencia reproducible.
 date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d %B, %Y')`"
+header-includes: \usepackage{multicol}
 csl: "csl/apa7-cv.csl"
 headcolor: 008080
 nocite: "@*"
@@ -44,14 +45,18 @@ library(ezpickr)
 
 # Métodos de Investigación Principales
 
- * Diseños experimentales
- * Cuestionarios en línea 
- * Grabación de voz
- * Análisis acústico
- * Fotografías faciales
- * Morfometrías geométricas
- * Antropometría
- * Investigación reproducible basada en la ciencia de datos
+\begin{multicols}{2}
+\begin{itemize}
+ \item Diseños experimentales
+ \item Cuestionarios en línea 
+ \item Grabación de voz
+ \item Análisis acústico
+ \item Fotografías faciales
+ \item Morfometrías geométricas
+ \item Antropometría
+ \item Investigación reproducible
+\end{itemize}
+\end{multicols}
 
 # Habilidades
 
