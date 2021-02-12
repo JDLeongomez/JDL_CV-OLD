@@ -48,7 +48,7 @@ I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behavi
 
 \begin{cvskills}
   \cvskill
-    {Data Science}
+    {Programming}
     {R (advanced: all data wrangling, analysis, plots and tables -and even this CV- made in R)}
 
   \cvskill
@@ -57,7 +57,7 @@ I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behavi
 
   \cvskill
     {Quantitative Research}
-    {General and Generalised Linear Models, Linear Mixed-effects Models}
+    {General and Generalised Linear Models, Linear Mixed-effects Models, model selection and averaging}
 
   \cvskill
     {Software}
