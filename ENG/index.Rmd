@@ -75,7 +75,7 @@ I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behavi
 
   \cvskill
     {Quantitative Research}
-    {General and Generalised Linear Models, Linear Mixed-effects Models, model selection and averaging}
+    {General and Generalised Models, Linear Mixed-effects Models, Model selection and Averaging, Machine Learning}
 
   \cvskill
     {Software}
@@ -136,7 +136,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 # Publications
 
-## Preprints and Articles under Review
+## \textcolor{teal}{Preprints and Articles under Review}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -146,7 +146,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 :::
 \endgroup
 
-## Journal Articles
+## \textcolor{teal}{Published Journal Articles and Works}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -156,7 +156,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 :::
 \endgroup
 
-## Divulgation articles
+## \textcolor{teal}{Divulgation articles}
 
 \begingroup
 \setlength{\parindent}{-0.5in}

@@ -1,0 +1,326 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{008080}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\photo{../JDL.jpg}
+\name{Juan David}{Leongómez}
+
+\position{Profesor Asociado}
+\address{Facultad de Psicología, Universidad El Bosque}
+
+\mobile{+57-1 6489000 Ext. 1901}
+\email{\href{mailto:jleongomez@unbosque.edu.co}{\nolinkurl{jleongomez@unbosque.edu.co}}}
+\homepage{jdleongomez.info}
+\github{JDLeongomez}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{Soy un científico interesado principalmente en el comportamiento
+humano, así como en los métodos cuantitativos y la ciencia
+reproducible.}
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {11 May, 2021}
+    {Juan David Leongómez~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{acerca-de-muxed}{%
+\section{Acerca de mí}\label{acerca-de-muxed}}
+
+Soy Profesor Asociado
+\href{https://sites.google.com/unbosque.edu.co/lach-es}{\textcolor{teal}{Laboratorio de Análisis del Comportamiento Humano (LACH)}},
+de la
+\href{https://www.uelbosque.edu.co/psicologia}{\textcolor{teal}{Facultad de Psicología}}
+de la
+\href{https://www.uelbosque.edu.co/}{\textcolor{teal}{Universidad El Bosque}}.
+Mis intereses incluyen procesos de elección de pareja, la comunicación
+vocal y la musicalidad, así como bioacústica y psicoacústica,y los
+efectos hormonales en el comportamiento humano. Publiqué uno de los
+primeros artículos que muestran los cambios en el tono de la voz en
+respuesta al estatus social del oyente, y he demostrado los fuertes
+efectos de la modulación de la voz en los oyentes en contextos de
+cortejo. Me apasiona la programación R, como herramienta para promover
+la reproducibilidad y la ciencia abierta.
+
+\hypertarget{habilidades}{%
+\section{Habilidades}\label{habilidades}}
+
+\begin{cvskills}
+  \cvskill
+    {Programación}
+    {R (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
+
+  \cvskill
+    {Informes reproducibles}
+    {Markdown/Rmarkdown (incluyendo {\fontfamily{cmr}\selectfont\LaTeX} y HTML\faHtml5)}
+
+  \cvskill
+    {Investigación Cuantitativa}
+    {Modelado estadístico, modelos de efectos mixtos, selección y promediación de modelos, \textit{Machine Learning}}
+
+  \cvskill
+    {Software}
+    {R, RStudio, Praat, Audacity, InkScape, Mendeley, Zotero}
+
+  \cvskill
+    {Idiomas}
+    {Inglés/Español}
+\end{cvskills}
+
+\hypertarget{educaciuxf3n}{%
+\section{Educación}\label{educaciuxf3n}}
+
+\begin{cventries}
+    \cventry{University of Stirling - School of Natural Sciences}{PhD - Psychology}{Stirling, Reino Unido}{2014}{}\vspace{-4.0mm}
+    \cventry{University of Liverpool - School of Biological Sciences}{MSc in Evolutionary Psychology}{Liverpool, Reino Unido}{2009}{}\vspace{-4.0mm}
+    \cventry{Universidad Pedagógica Nacional- Facultad de Bellas Artes}{Licenciatura en Pedagogía Musical}{Bogotá, Colombia}{2006}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{experiencia-laboral-y-docente}{%
+\section{Experiencia laboral y
+docente}\label{experiencia-laboral-y-docente}}
+
+Para una lista completa y descripción de responsabilidades, por favor
+consulta mi
+\href{https://jdleongomez.info/es/\#experience}{\textcolor{teal}{sitio web}}
+o mi
+\href{https://jdleongomez.info/es/files/jdl_cv_es.pdf}{\textcolor{teal}{CV detallada}}.
+
+\begin{cventries}
+    \cventry{Profesor Asociado}{Universidad El Bosque}{Bogotá, Colombia}{Ene. 2015 - Actualmente}{}\vspace{-4.0mm}
+    \cventry{Profesor Catedrático}{Universidad de La Sabana}{Chia, Colombia}{Ene. 2015 - Dec. 2016}{}\vspace{-4.0mm}
+    \cventry{Asistente de Enseñanza}{University of Stirling}{Stirling, Reino Unido}{Sep. 2011 - Sep. 2014}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{logros}{%
+\section{Logros}\label{logros}}
+
+Para información sobre \textbf{subvenciones}, \textbf{becas} y
+\textbf{premios}, por favor visita mi
+\href{https://jdleongomez.info/es/\#accomplishments}{\textcolor{teal}{sitio web}}
+o mi
+\href{https://jdleongomez.info/es/files/jdl_cv_es.pdf}{\textcolor{teal}{CV detallada}}.
+
+\hypertarget{publicaciones-seleccionadas}{%
+\section{Publicaciones
+Seleccionadas}\label{publicaciones-seleccionadas}}
+
+Para una lista completa, por favor visita la sección de publicaciones en
+mi
+\href{https://jdleongomez.info/es/publication/}{\textcolor{teal}{sitio web}}
+o mi
+\href{https://jdleongomez.info/es/files/jdl_cv_es.pdf}{\textcolor{teal}{CV detallada}}.
+
+\hypertarget{section}{%
+\subsection{\texorpdfstring{\textcolor{teal}{\textit{Preprints} y Artículos en Revisión Seleccionados}}{}}\label{section}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs_featured_preprint}{}
+\leavevmode\hypertarget{ref-Leongomez2020a}{}%
+\textbf{Leongómez, J. D.} (2020). {Análisis de poder estadístico y
+cálculo de tamaño de muestra en R: Guía práctica}. \emph{Zenodo}.
+\url{https://doi.org/10.5281/zenodo.3988777}
+
+\leavevmode\hypertarget{ref-Leongomez2020}{}%
+\textbf{Leongómez, J. D.}, Sánchez, O. R., Vásquez-Amézquita, M., \&
+Roberts, S. C. (2020). Contextualising courtship: Exploring male body
+odour effects on vocal modulation. \emph{PsyArXiv}.
+\url{https://doi.org/10.31234/osf.io/8f7g3}
+
+\endgroup
+
+\hypertarget{section-1}{%
+\subsection{\texorpdfstring{\textcolor{teal}{Artículos Seleccionados}}{}}\label{section-1}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs_featured}{}
+\leavevmode\hypertarget{ref-Leonguxf3mez2020}{}%
+\textbf{Leongómez, J. D.}, Sánchez, O. R., Vásquez-Amézquita, M.,
+Valderrama, E., Castellanos-Chacón, A., Morales-Sánchez, L., Nieto, J.,
+\& González-Santoyo, I. (2020). Self-reported health is related to body
+height and waist circumference in rural indigenous and urbanised
+latin-american populations. \emph{Scientific Reports}, \emph{10}(1),
+4391. \url{https://doi.org/10.1038/s41598-020-61289-4}
+
+\leavevmode\hypertarget{ref-Leongomez2017}{}%
+\textbf{Leongómez, J. D.}, Mileva, V. R., Little, A. C., \& Roberts, S.
+C. (2017). {Perceived differences in social status between speaker and
+listener affect the speaker's vocal characteristics}. \emph{PLoS One},
+\emph{12}(6), e0179407.
+\url{https://doi.org/10.1371/journal.pone.0179407}
+
+\leavevmode\hypertarget{ref-Leongomez2014}{}%
+\textbf{Leongómez, J. D.}, Binter, J., Kubicová, L., Stolařová, P.,
+Klapilová, K., Havlíček, J., \& Roberts, S. C. (2014). {Vocal modulation
+during courtship increases proceptivity even in naive listeners}.
+\emph{Evolution and Human Behavior}, \emph{35}(6), 489--496.
+\url{https://doi.org/10.1016/j.evolhumbehav.2014.06.008}
+
+\endgroup
+
+\hypertarget{investigaciuxf3n-abierta-canad-de-youtube}{%
+\section{Investigación Abierta (canad de
+YouTube)}\label{investigaciuxf3n-abierta-canad-de-youtube}}
+
+\href{https://www.youtube.com/user/juanleongomez/featured}{\textcolor{teal}{Investigación Abierta}}
+es un canal de YouTube donde incluyo videos y tutoriales acerca de
+métodos y buenas práticas de investigación, estadística y ciencia
+abierta, así como algunos programas útiles de código abierto.
+
+\hypertarget{supervisiuxf3n-de-posgrado}{%
+\section{Supervisión de Posgrado}\label{supervisiuxf3n-de-posgrado}}
+
+Para una lista completa, incluyendo la supervisión de pregrado, por
+favor visita mi
+\href{https://jdleongomez.info/es/team/\#students}{\textcolor{teal}{sitio web}}
+o mi
+\href{https://jdleongomez.info/es/files/jdl_cv_es.pdf}{\textcolor{teal}{CV detallada}}.
+
+\begin{cventries}
+    \cventry{PhD in Neuroscience}{Milena Vásquez-Amézquita}{University of Valencia, España}{2015 - 2018}{\begin{cvitems}
+\item Supervisión conjunta con  Alicia Salvador.
+\end{cvitems}}
+    \cventry{Professional Doctorate in Counselling Psychology}{Francisco Javier Flores}{University of East London, UK}{2015 - 2018}{\begin{cvitems}
+\item Supervisión conjunta con Lisa Chiara Fellin.
+\end{cvitems}}
+    \cventry{Psychological Research Methods (Evolutionary Psychology) MSc}{Julia Sanz-Vidania}{University of Stirling, UK}{2013 - 2014}{\begin{cvitems}
+\item Supervisión conjunta con S. Craig Roberts.
+\end{cvitems}}
+    \cventry{Maestría en Psicología}{Adrián Acosta Guerrero}{Universidad El Bosque, Colombia}{2019 - 2020}{\begin{cvitems}
+\item Supervisión conjunta con Milena Vásquez-Amézquita.
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{roles-editoriales}{%
+\section{Roles Editoriales}\label{roles-editoriales}}
+
+Actualmente soy editor de un próximo número temático en
+\href{https://royalsocietypublishing.org/journal/rstb}{\textcolor{teal}{Philosophical Transactions B}}.
+Soy par revisor de diversas revistas, incuyendo
+\href{https://royalsocietypublishing.org/journal/rspb}{\textcolor{teal}{Proceedings of the Royal Society B}},
+\href{https://royalsocietypublishing.org/journal/rsos}{\textcolor{teal}{Royal Society Open Science}},
+\href{https://www.sciencedirect.com/journal/evolution-and-human-behavior}{\textcolor{teal}{Evolution and Human Behavior}},
+\href{https://www.nature.com/srep/}{\textcolor{teal}{Scientific Reports}},
+\href{https://www.tandfonline.com/toc/hbas20/current}{\textcolor{teal}{Basic and Applied Social Psychology}},
+\href{https://www.journals.elsevier.com/cortex}{\textcolor{teal}{Cortex}},
+\href{https://journals.sagepub.com/home/pec}{\textcolor{teal}{Perception}},
+y
+\href{https://www.frontiersin.org/journals/psychology}{\textcolor{teal}{Frontiers in Psychology}},
+en donde actualmente soy \emph{review editor} de la sección
+especializada en
+\href{https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology}{\textcolor{teal}{Psicología Evolutiva}}.
+Mi registro verificado como par académico internacional está disponible
+en mi perfil de
+\href{https://publons.com/researcher/1333339/juan-david-leongomez/}{\textcolor{teal}{Publons}}.
+
+\end{document}

@@ -57,7 +57,7 @@ I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behavi
 
   \cvskill
     {Quantitative Research}
-    {General and Generalised Linear Models, Linear Mixed-effects Models, model selection and averaging}
+    {General and Generalised Models, Linear Mixed-effects Models, Model selection and Averaging, Machine Learning}
 
   \cvskill
     {Software}
@@ -94,7 +94,7 @@ For information on **grants**, **scholarships**, **awards** and **prizes**, plea
 
 For a full list, please check the publications section on [\textcolor{teal}{my website}](https://jdleongomez.info/en/publication/) or my [\textcolor{teal}{detailed CV}](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
-## Selected Preprints and Articles Under Review
+## \textcolor{teal}{Selected Preprints and Articles Under Review}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -104,7 +104,7 @@ For a full list, please check the publications section on [\textcolor{teal}{my w
 :::
 \endgroup
 
-## Selected Journal Articles
+## \textcolor{teal}{Selected Journal Articles}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
