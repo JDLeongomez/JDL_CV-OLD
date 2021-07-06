@@ -12,7 +12,7 @@ profilepic: "../JDL.jpg"
 email: "jleongomez@unbosque.edu.co"
 aboutme: |
   Soy un científico interesado principalmente en el comportamiento humano, así como en los métodos cuantitativos y la ciencia reproducible.
-date: "`r Sys.setlocale('LC_TIME','English');format(Sys.Date(),'%d %B, %Y')`"
+date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d %B, %Y')`"
 csl: "csl/apa7-cv.csl"
 headcolor: 008080
 nocite: "@*"
