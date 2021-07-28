@@ -42,7 +42,7 @@ library(ezpickr)
 
 # About me
 
-I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behaviour Lab (LACH)}](https://sites.google.com/unbosque.edu.co/lach-es), [\textcolor{teal}{Faculty of Psychology}](https://www.uelbosque.edu.co/psicologia), at [\textcolor{teal}{Universidad El Bosque}](https://www.uelbosque.edu.co/) in Bogota, Colombia. My research interests include mate choice and human vocal communication, with an aspiration towards understanding musicality. I am also interested in hormonal effects on human behaviour. I published among the first articles showing within-individual changes in voice pitch in response to the social status of the listener, and have demonstrated strong effects of voice modulation on listeners in courtship contexts. I am very passionate about quantitative methods and R programming, as a tool to promote reproducibility and open science.
+I am an Associate Professor and Researcher at the **Human Behaviour Lab (LACH)**, [\textcolor{teal}{Faculty of Psychology}](https://www.uelbosque.edu.co/psicologia), at [\textcolor{teal}{Universidad El Bosque}](https://www.uelbosque.edu.co/) in Bogota, Colombia. My research interests include mate choice and human vocal communication, with an aspiration towards understanding musicality. I am also interested in hormonal effects on human behaviour. I published among the first articles showing within-individual changes in voice pitch in response to the social status of the listener, and have demonstrated strong effects of voice modulation on listeners in courtship contexts. I am very passionate about quantitative methods and R programming, as a tool to promote reproducibility and open science.
 
 # Skills
 
