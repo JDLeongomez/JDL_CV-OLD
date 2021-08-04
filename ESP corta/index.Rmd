@@ -42,7 +42,7 @@ library(ezpickr)
 
 # Acerca de mí
 
-Soy Profesor Asociado del **Laboratorio de Análisis del Comportamiento Humano (LACH)**, de la [\textcolor{teal}{Facultad de Psicología}](https://www.uelbosque.edu.co/psicologia) de la [\textcolor{teal}{Universidad El Bosque}](https://www.uelbosque.edu.co/). Mis intereses incluyen procesos de elección de pareja, la comunicación vocal y la musicalidad, así como bioacústica y psicoacústica,y los efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasiona la programación R, como herramienta para promover la reproducibilidad y la ciencia abierta.
+Soy Profesor Asociado del [\textcolor{teal}{Laboratorio de Análisis del Comportamiento Humano (LACH)}](https://www.psicologia.unbosque.edu.co/lach), de la [\textcolor{teal}{Facultad de Psicología}](https://www.uelbosque.edu.co/psicologia) de la [\textcolor{teal}{Universidad El Bosque}](https://www.uelbosque.edu.co/). Mis intereses incluyen procesos de elección de pareja, la comunicación vocal y la musicalidad, así como bioacústica y psicoacústica,y los efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasiona la programación R, como herramienta para promover la reproducibilidad y la ciencia abierta.
 
 # Habilidades
 
