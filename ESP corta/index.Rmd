@@ -5,7 +5,7 @@ name: Juan David
 surname: Leongómez
 position: "Profesor Asociado"
 address: "Facultad de Psicología, Universidad El Bosque"
-phone: +57-1 6489000 Ext. 1901
+phone: (+57) 601-6489000 Ext. 1901
 www: jdleongomez.info
 github: JDLeongomez
 profilepic: "../JDL.jpg"
