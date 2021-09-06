@@ -176,7 +176,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 # Investigación Abierta (YouTube channel)
 
-[\textcolor{teal}{Investigación Abierta}](https://www.youtube.com/user/juanleongomez/featured) is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
+[\textcolor{red}{\faYoutubePlay} \textcolor{teal}{Investigación Abierta} ](https://www.youtube.com/c/InvestigaciónAbierta) is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
 
 \begingroup
 \setlength{\parindent}{-0.5in}

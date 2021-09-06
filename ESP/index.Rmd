@@ -14,6 +14,7 @@ aboutme: |
   Soy un científico interesado principalmente en el comportamiento humano, así como en los métodos cuantitativos y la ciencia reproducible.
 date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d %B, %Y')`"
 header-includes: \usepackage{multicol}
+  \usepackage{fontawesome}
 csl: "csl/apa7-cv.csl"
 headcolor: 008080
 nocite: "@*"
@@ -173,7 +174,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 # Investigación Abierta (canal de YouTube)
 
-[\textcolor{teal}{Investigación Abierta}](https://www.youtube.com/user/juanleongomez/featured) es un canal de YouTube donde incluyo videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
+[\textcolor{red}{\faYoutubePlay} \textcolor{teal}{Investigación Abierta} ](https://www.youtube.com/c/InvestigaciónAbierta) es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
 
 \begingroup
 \setlength{\parindent}{-0.5in}
