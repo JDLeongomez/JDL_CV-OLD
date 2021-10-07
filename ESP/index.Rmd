@@ -14,6 +14,7 @@ aboutme: |
   Soy un científico interesado principalmente en el comportamiento humano, así como en los métodos cuantitativos y la ciencia reproducible.
 date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d %B, %Y')`"
 header-includes: \usepackage{multicol}
+  \usepackage{xurl}
   \usepackage{fontawesome}
 csl: "csl/apa7-cv.csl"
 headcolor: 008080

@@ -14,6 +14,8 @@ aboutme: |
   I am a scientist mainly interested in human behaviour, as well as quantitative methods, and reproducible science.
 date: "`r Sys.setlocale('LC_TIME','English');format(Sys.Date(),'%d %B, %Y')`"
 header-includes: \usepackage{multicol}
+  \usepackage{xurl}
+  \usepackage{fontawesome}
 csl: "csl/apa7-cv.csl"
 headcolor: 008080
 nocite: "@*"
@@ -21,7 +23,7 @@ knit: bookdown::render_book
 bibliography_journals: "../journal.bib"
 bibliography_divulgation: "../divulgation.bib"
 bibliography_working_paper: "../working_paper.bib"
-bibliography_IA: "../IA.bib"
+bibliography_IA: "../IA_en.bib"
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
@@ -176,7 +178,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 # Investigación Abierta (YouTube channel)
 
-[\textcolor{red}{\faYoutubePlay} \textcolor{teal}{Investigación Abierta} ](https://www.youtube.com/c/InvestigaciónAbierta) is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
+[\textcolor{red}{\faYoutubePlay} \textcolor{teal}{Investigación Abierta} ](https://www.youtube.com/c/InvestigaciónAbierta) [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
 
 \begingroup
 \setlength{\parindent}{-0.5in}
