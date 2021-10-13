@@ -93,17 +93,9 @@ Para información sobre **subvenciones**, **becas** y **premios**, por favor vis
 
 Para una lista completa, por favor visita la sección de publicaciones en mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/publication/) o mi [\textcolor{teal}{CV detallada}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
-## \textcolor{teal}{\textit{Preprints} y Artículos en Revisión Seleccionados}
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_featured_preprint}
-:::
-\endgroup
-
-## \textcolor{teal}{Artículos Seleccionados}
+\begin{footnotesize}
+\textbf{Nota:} Soy el/un autor de correspondencia en todas estas publicaciones
+\end{footnotesize}
 
 \begingroup
 \setlength{\parindent}{-0.5in}

@@ -92,19 +92,11 @@ For information on **grants**, **scholarships**, **awards** and **prizes**, plea
 
 # Selected Publications
 
-For a full list, please check the publications section on [\textcolor{teal}{my website}](https://jdleongomez.info/en/publication/) or my [\textcolor{teal}{detailed CV}](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
+For a full list, please check the publications section on [\textcolor{teal}{my website}](https://jdleongomez.info/en/publication/) or my [\textcolor{teal}{detailed CV}](https://jdleongomez.info/en/files/jdl_cv_en.pdf). 
 
-## \textcolor{teal}{Selected Preprints and Articles Under Review}
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_featured_preprint}
-:::
-\endgroup
-
-## \textcolor{teal}{Selected Journal Articles}
+\begin{footnotesize}
+\textbf{Note:} I am the/a corresponding author in all these publications
+\end{footnotesize}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
