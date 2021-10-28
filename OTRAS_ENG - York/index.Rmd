@@ -5,7 +5,7 @@ name: Juan David
 surname: Leongómez
 position: "Associate Professor"
 address: "Faculty of Psychology, Universidad El Bosque"
-phone: (+57) 601-6489000 Ext. 1901
+phone: (+57) 319 407 7102
 www: jdleongomez.info
 profilepic: "../JDL.jpg"
 email: "jleongomez@unbosque.edu.co"
@@ -60,9 +60,7 @@ library(stplanr)
 
 # Highlights
 
-**About me:** I currently am an Associate Professor and Researcher at the [Human Behaviour Lab (LACH)](https://www.psicologia.unbosque.edu.co/lach), [Faculty of Psychology](https://www.uelbosque.edu.co/psicologia), at [Universidad El Bosque](https://www.uelbosque.edu.co/) in Bogota, Colombia. I hold a Bachelor’s
-in Music Education from Universidad Pedagógica Nacional (Colombia), an MSc in Evolutionary Psychology
-from the University of Liverpool, and a PhD from the University of Stirling.
+**About me:** I currently am an Associate Professor and Researcher at the [Human Behaviour Lab (LACH)](https://www.psicologia.unbosque.edu.co/lach), [Faculty of Psychology](https://www.uelbosque.edu.co/psicologia), at [Universidad El Bosque](https://www.uelbosque.edu.co/) in Bogota, Colombia. I hold a Bachelor's in Music Education from Universidad Pedagógica Nacional (Colombia), an MSc in Evolutionary Psychology from the University of Liverpool, and a PhD from the University of Stirling.
 
 **Research:** I study the evolutionary underpinnings of human behaviour, particularly those related to mate choice and the social effects of vocal signals, with a particular interest in the evolution of musicality. I have published among the first articles showing within-individual changes in voice pitch in response to the social status of the listener and have demonstrated strong effects of voice modulation on listeners in courtship contexts.
 
@@ -162,6 +160,28 @@ ezpickr::pick("data/teaching-experience.xlsx") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
 
+## \textbf{Student evaluations} (Universidad El Bosque)
+
+Below are evaluations of some representative modules I have taught. Please be aware of the different system established by the University to evaluate modules for undergraduate and postgraduate students.
+
+```{r student-evaluations}
+ezpickr::pick("data/student-evaluations.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+## \textbf{Student comments} (Universidad El Bosque)
+
+Below are some anonymous comments included during student evaluations for modules I have taught.
+
+```{r student-comments}
+ezpickr::pick("data/student-comments.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
 # Scholarships, Prizes and Awards
 
 ```{r award}
@@ -172,7 +192,7 @@ ezpickr::pick("data/award.xlsx") %>%
 
 # Grants
 
-I have received over U$200,000 in independent research funding from external grants and scholarships since the start of my PhD, including from major funder [Minciencias](https://minciencias.gov.co/#) (Ministry of Science, Technology and Innovation of Colombia).
+I have received over U\$200,000 in independent research funding from external grants and scholarships since the start of my PhD, including from major funder [Minciencias](https://minciencias.gov.co/#) (Ministry of Science, Technology and Innovation of Colombia).
 
 ```{r grant}
 ezpickr::pick("data/grant.xlsx") %>%
@@ -279,15 +299,17 @@ p.fin <- ggarrange(p2, p1,
 #  geom_abline(intercept = 0, slope = 1, colour = "#008080", linetype = "dashed")
 ```
 
-I have published (or have in press) `r nrow(pubs)-4` journal articles. In most of these I have done all statistical analyses, and 12 are as first or last author. To date, my articles have been cited `r citSum` times, `r citRecentSum` (`r label_percent()(citRecentProp[1,1])`) since the beginning of `r yearRecent` (see figure below), and `r numbers_to_words(count50cit)` have been cited over 50 times. I have an h-index of `r profile$h_index` and a g-index of `r gindex`.
+Between 2015 and 2017 my contracts were teaching centred, with little time for research. Since 2018, however, I have focused increasingly more on research.
+
+I have published (or have in press) `r nrow(pubs)-4` journal articles. In most of these I have done all statistical analyses, and 12 are as first or last author. To date, my articles have been cited `r citSum` times, `r citRecentSum` (`r label_percent()(citRecentProp[1,1])`) since the beginning of `r yearRecent` (see figure below), and `r numbers_to_words(count50cit)` have been cited over 50 times. I have an h-index of `r profile$h_index` and a g-index of `r gindex`[^2].
+
+[^2]: Citation data obtained using the [`scholar`](https://cran.r-project.org/web/packages/scholar/index.html) R package.
 
 ```{r echo=FALSE, fig.height=3, fig.width=7.3}
-annotate_figure(p.fin, bottom = text_grob(paste0("Source: Google Scholar. Updated ", 
+annotate_figure(p.fin, bottom = text_grob(paste0("Source for citation data: Google Scholar. Updated ", 
                                        format(Sys.Date(),'%B %d, %Y')),
                 hjust = 1, x = 1, size = 6))
 ```
-
-Between 2015 and 2017 my contracts were teaching centred, with little time for research. Since 2018, however, I have focused increasingly more on research.
 
 ## \textbf{Preprints and Articles under Review}
 
@@ -298,6 +320,7 @@ Between 2015 and 2017 my contracts were teaching centred, with little time for r
 ```
 ::: {#refs_working_paper}
 :::
+
 ```{=tex}
 \endgroup
 ```
@@ -311,6 +334,7 @@ Between 2015 and 2017 my contracts were teaching centred, with little time for r
 ```
 ::: {#refs_journals}
 :::
+
 ```{=tex}
 \endgroup
 ```
@@ -324,6 +348,7 @@ Between 2015 and 2017 my contracts were teaching centred, with little time for r
 ```
 ::: {#refs_divulgation}
 :::
+
 ```{=tex}
 \endgroup
 ```
@@ -372,8 +397,9 @@ viewCount <- stats$statistics$viewCount
 numVids <- stats$statistics$videoCount
 ```
 
-[\textcolor{red}{\faYoutubePlay} 
-Investigación Abierta](https://www.youtube.com/c/InvestigaciónAbierta) [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software since 2020. To date (`r format(Sys.Date(),'%B %d, %Y')`), I have posted `r as.numeric(numVids)-1` videos, that have been watched a total of `r prettyNum(as.numeric(viewCount),big.mark=",",scientific=FALSE)` times. The channel has `r prettyNum(as.numeric(subscribers),big.mark=",",scientific=FALSE)` subscribers, and videos have an average of `r prettyNum(as.numeric(aveLikeCount),big.mark=",",scientific=FALSE)` likes, `r prettyNum(mean(res_df$viewCount),big.mark=",",scientific=FALSE, digits=0)` views, and `r aveLikePerc` of ratings are likes.
+[\textcolor{red}{\faYoutubePlay} Investigación Abierta](https://www.youtube.com/c/InvestigaciónAbierta) [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software since 2020. To date (`r format(Sys.Date(),'%B %d, %Y')`), I have posted `r as.numeric(numVids)-1` videos, that have been watched a total of `r prettyNum(as.numeric(viewCount),big.mark=",",scientific=FALSE)` times. The channel has `r prettyNum(as.numeric(subscribers),big.mark=",",scientific=FALSE)` subscribers, and videos have an average of `r prettyNum(as.numeric(aveLikeCount),big.mark=",",scientific=FALSE)` likes, `r prettyNum(mean(res_df$viewCount),big.mark=",",scientific=FALSE, digits=0)` views, and `r aveLikePerc` of ratings are likes[^3].
+
+[^3]: Data obtained using the [`tuber`](https://cran.r-project.org/web/packages/tuber/index.html) R package.
 
 ```{=tex}
 \begingroup
@@ -382,6 +408,7 @@ Investigación Abierta](https://www.youtube.com/c/InvestigaciónAbierta) [\texti
 ```
 ::: {#refs_IA}
 :::
+
 ```{=tex}
 \endgroup
 ```
@@ -394,6 +421,7 @@ Investigación Abierta](https://www.youtube.com/c/InvestigaciónAbierta) [\texti
 \setlength{\leftskip}{0.5in}
 ```
 `r knitr::knit_child("data/poster.txt")`
+
 ```{=tex}
 \endgroup
 ```
