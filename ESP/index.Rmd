@@ -16,6 +16,11 @@ date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d %B, %Y')`"
 header-includes: \usepackage{multicol}
   \usepackage{xurl}
   \usepackage{fontawesome}
+  \usepackage{xcolor}
+  \usepackage{hyperref}
+  \hypersetup{
+    colorlinks,
+    urlcolor=teal}
 csl: "csl/apa7-cv.csl"
 headcolor: 008080
 nocite: "@*"
