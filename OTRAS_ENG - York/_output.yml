@@ -12,5 +12,3 @@ vitae::awesomecv:
 #    - --biblatex
     - --lua-filter="../lua/multiple-bibliographies.lua"
     - --lua-filter="../lua/strong.lua"
-urlcolor: 008080
-linkcolor: 008080
