@@ -22,7 +22,7 @@ header-includes: \usepackage{multicol}
     colorlinks,
     urlcolor=teal}
 csl: "csl/apa7-cv.csl"
-headcolor: 008080
+headcolor: 207373
 nocite: "@*"
 knit: bookdown::render_book
 bibliography_journals: "../journal.bib"
@@ -60,7 +60,7 @@ library(stplanr)
 
 # About me
 
-I am an Associate Professor and Researcher at the [\textcolor{teal}{Human Behaviour Lab (LACH)}](https://www.psicologia.unbosque.edu.co/lach), [\textcolor{teal}{Faculty of Psychology}](https://www.uelbosque.edu.co/psicologia), at [\textcolor{teal}{Universidad El Bosque}](https://www.uelbosque.edu.co/) in Bogota, Colombia. My research interests include mate choice and human vocal communication, with an aspiration towards understanding musicality. I am also interested in bioacoustics and psychoacoustics, as well as hormonal effects on human behaviour. I published among the first articles showing within-individual changes in voice pitch in response to the social status of the listener, and have demonstrated strong effects of voice modulation on listeners in courtship contexts. I am very passionate about quantitative methods and R programming, as a tool to promote reproducibility and open science.
+I am an Associate Professor and Researcher at the [Human Behaviour Lab (LACH)](https://www.psicologia.unbosque.edu.co/lach), [Faculty of Psychology](https://www.uelbosque.edu.co/psicologia), at [Universidad El Bosque](https://www.uelbosque.edu.co/) in Bogota, Colombia. My research interests include mate choice and human vocal communication, with an aspiration towards understanding musicality. I am also interested in bioacoustics and psychoacoustics, as well as hormonal effects on human behaviour. I published among the first articles showing within-individual changes in voice pitch in response to the social status of the listener, and have demonstrated strong effects of voice modulation on listeners in courtship contexts. I am very passionate about quantitative methods and **R** programming, as a tool to promote reproducibility and open science.
 
 # Primary Research Methods
 
@@ -183,7 +183,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 # Investigación Abierta (YouTube channel)
 
-[\textcolor{red}{\faYoutubePlay} \textcolor{teal}{Investigación Abierta} ](https://www.youtube.com/c/InvestigaciónAbierta) [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
+[\textcolor{red}{\faYoutubePlay} Investigación Abierta](https://www.youtube.com/c/InvestigaciónAbierta) [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -213,7 +213,7 @@ ezpickr::pick("data/supervision.xlsx") %>%
 
 # Editorial Appointments
 
-My verified review record is available from my [\textcolor{teal}{Publons}](https://publons.com/researcher/1333339/juan-david-leongomez/) profile. 
+My verified review record is available from my [Publons](https://publons.com/researcher/1333339/juan-david-leongomez/) profile. 
 
 ```{r service}
 ezpickr::pick("data/service.xlsx") %>%
@@ -233,11 +233,11 @@ ezpickr::pick("data/event.xlsx") %>%
 
 ## Current
 
-  * [\textcolor{teal}{International Society for Human Ethology (ISHE)}](https://ishe.org/)
+  * [International Society for Human Ethology (ISHE)](https://ishe.org/)
 
 ## Past
 
-  * [\textcolor{teal}{European Human Behaviour and Evolution Association (EHBEA)}](https://www.cambridge.org/core/membership/ehbea)
-  * [\textcolor{teal}{Association for Psychological Science (APS)}](https://www.psychologicalscience.org/)
+  * [European Human Behaviour and Evolution Association (EHBEA)](https://www.cambridge.org/core/membership/ehbea)
+  * [Association for Psychological Science (APS)](https://www.psychologicalscience.org/)
 
 <!-- *`r Sys.Date()`* -->

@@ -22,7 +22,7 @@ header-includes: \usepackage{multicol}
     colorlinks,
     urlcolor=teal}
 csl: "csl/apa7-cv.csl"
-headcolor: 008080
+headcolor: 207373
 nocite: "@*"
 knit: bookdown::render_book
 bibliography_featured: "../featured.bib"
@@ -50,7 +50,7 @@ library(ezpickr)
 
 # Acerca de mí
 
-Soy Profesor Asociado del [\textcolor{teal}{Laboratorio de Análisis del Comportamiento Humano (LACH)}](https://www.psicologia.unbosque.edu.co/lach), de la [\textcolor{teal}{Facultad de Psicología}](https://www.uelbosque.edu.co/psicologia) de la [\textcolor{teal}{Universidad El Bosque}](https://www.uelbosque.edu.co/). Mis intereses incluyen procesos de elección de pareja, la comunicación vocal y la musicalidad, así como bioacústica y psicoacústica,y los efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasiona la programación R, como herramienta para promover la reproducibilidad y la ciencia abierta.
+Soy Profesor Asociado del [Laboratorio de Análisis del Comportamiento Humano (LACH)](https://www.psicologia.unbosque.edu.co/lach), de la [Facultad de Psicología](https://www.uelbosque.edu.co/psicologia) de la [Universidad El Bosque](https://www.uelbosque.edu.co/). Mis intereses incluyen procesos de elección de pareja, la comunicación vocal y la musicalidad, así como bioacústica y psicoacústica,y los efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasiona la programación en **R**, como herramienta para promover la reproducibilidad y la ciencia abierta.
 
 # Habilidades
 
@@ -86,7 +86,7 @@ ezpickr::pick("data/education.xlsx") %>%
 
 # Experiencia laboral y docente
 
-Para una lista completa y descripción de responsabilidades, por favor consulta mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/#experience) o mi [\textcolor{teal}{CV detallada}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa y descripción de responsabilidades, por favor consulta mi [sitio web](https://jdleongomez.info/es/#experience) o mi [CV detallada](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 ```{r working-experience}
 ezpickr::pick("data/working-experience.xlsx") %>%
@@ -95,11 +95,11 @@ ezpickr::pick("data/working-experience.xlsx") %>%
 ```
 
 # Logros
-Para información sobre **subvenciones**, **becas** y **premios**, por favor visita mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/#accomplishments) o mi [\textcolor{teal}{CV detallada}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para información sobre **subvenciones**, **becas** y **premios**, por favor visita mi [sitio web](https://jdleongomez.info/es/#accomplishments) o mi [CV detallada](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 # Publicaciones Seleccionadas
 
-Para una lista completa, por favor visita la sección de publicaciones en mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/publication/) o mi [\textcolor{teal}{CV detallada}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa, por favor visita la sección de publicaciones en mi [sitio web](https://jdleongomez.info/es/publication/) o mi [CV detallada](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 \begin{footnotesize}
 \textbf{Nota:} Soy el/un autor de correspondencia en todas estas publicaciones
@@ -115,12 +115,12 @@ Para una lista completa, por favor visita la sección de publicaciones en mi [\t
 
 # Investigación Abierta (canal de YouTube)
 
-[\textcolor{red}{\faYoutubePlay} \textcolor{teal}{Investigación Abierta} ](https://www.youtube.com/c/InvestigaciónAbierta) es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas práticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
+[\textcolor{red}{\faYoutubePlay} Investigación Abierta](https://www.youtube.com/c/InvestigaciónAbierta) es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas práticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
 
 
 # Supervisión de Posgrado
 
-Para una lista completa, incluyendo la supervisión de pregrado, por favor visita mi [\textcolor{teal}{sitio web}](https://jdleongomez.info/es/team/#students) o mi [\textcolor{teal}{CV detallada}](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa, incluyendo la supervisión de pregrado, por favor visita mi [sitio web](https://jdleongomez.info/es/team/#students) o mi [CV detallada](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 ```{r supervision}
 ezpickr::pick("data/supervision.xlsx") %>%
@@ -130,8 +130,8 @@ ezpickr::pick("data/supervision.xlsx") %>%
 
 # Roles Editoriales
 
-Actualmente soy editor de un próximo número temático en [\textcolor{teal}{Philosophical Transactions B}](https://royalsocietypublishing.org/journal/rstb). Soy par revisor de diversas revistas, incuyendo [\textcolor{teal}{Proceedings of the Royal Society B}](https://royalsocietypublishing.org/journal/rspb), [\textcolor{teal}{Royal Society Open Science}](https://royalsocietypublishing.org/journal/rsos), [\textcolor{teal}{Evolution and Human Behavior}](https://www.sciencedirect.com/journal/evolution-and-human-behavior), [\textcolor{teal}{Scientific Reports}](https://www.nature.com/srep/), [\textcolor{teal}{Basic and Applied Social Psychology}](https://www.tandfonline.com/toc/hbas20/current),
-[\textcolor{teal}{Cortex}](https://www.journals.elsevier.com/cortex), [\textcolor{teal}{Perception}](https://journals.sagepub.com/home/pec),
-[\textcolor{teal}{Evolutionary Psychology}](https://journals.sagepub.com/home/evp), y [\textcolor{teal}{Frontiers in Psychology}](https://www.frontiersin.org/journals/psychology), en donde actualmente soy *review editor* de la [\textcolor{teal}{\textit{Evolutionary Psychology specialty section}}](https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology). Mi registro verificado completo como par académico internacional está disponible en mi perfil de [\textcolor{teal}{Publons}](https://publons.com/researcher/1333339/juan-david-leongomez/).
+Recientemente fui editor de un número temático en dos partes para [Philosophical Transactions B](https://royalsocietypublishing.org/journal/rstb) (ver [Parte 1](https://royalsocietypublishing.org/toc/rstb/2021/376/1840), [Parte 2](https://royalsocietypublishing.org/toc/rstb/2022/377/1841)). Soy par revisor de diversas revistas, incuyendo [Proceedings of the Royal Society B](https://royalsocietypublishing.org/journal/rspb), [Royal Society Open Science](https://royalsocietypublishing.org/journal/rsos), [Evolution and Human Behavior](https://www.sciencedirect.com/journal/evolution-and-human-behavior), [Scientific Reports](https://www.nature.com/srep/), [Basic and Applied Social Psychology](https://www.tandfonline.com/toc/hbas20/current),
+[Cortex](https://www.journals.elsevier.com/cortex), [Perception](https://journals.sagepub.com/home/pec),
+[Evolutionary Psychology](https://journals.sagepub.com/home/evp), y [Frontiers in Psychology](https://www.frontiersin.org/journals/psychology), en donde actualmente soy *review editor* de la [\textit{Evolutionary Psychology specialty section}](https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology). Mi registro verificado completo como par académico internacional está disponible en mi perfil de [Publons](https://publons.com/researcher/1333339/juan-david-leongomez/).
 
 <!-- *`r Sys.Date()`* -->

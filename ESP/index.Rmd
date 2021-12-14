@@ -22,7 +22,7 @@ header-includes: \usepackage{multicol}
     colorlinks,
     urlcolor=teal}
 csl: "csl/apa7-cv.csl"
-headcolor: 008080
+headcolor: 207373
 nocite: "@*"
 knit: bookdown::render_book
 bibliography_journals: "../journal.bib"
@@ -57,7 +57,7 @@ library(stplanr)
 
 # Acerca de mí
 
-Soy Profesor Asociado e investigador del [\textcolor{teal}{Laboratorio de Análisis del Comportamiento Humano (LACH)}](https://www.psicologia.unbosque.edu.co/lach), de la [\textcolor{teal}{Facultad de Psicología}](https://www.uelbosque.edu.co/psicologia) de la [\textcolor{teal}{Universidad El Bosque}](https://www.uelbosque.edu.co/) en Bogotá, Colombia. Mis intereses incluyen los procesos de elección de pareja, la comunicación vocal humana y la musicalidad. También estoy interesado en la bioacústica y la psicoacústica, así como los efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasionan los métodos cuantitativos y la programación R, como herramienta para promover la reproducibilidad y la ciencia abierta.
+Soy Profesor Asociado e investigador del [Laboratorio de Análisis del Comportamiento Humano (LACH)](https://www.psicologia.unbosque.edu.co/lach), de la [Facultad de Psicología](https://www.uelbosque.edu.co/psicologia) de la [Universidad El Bosque](https://www.uelbosque.edu.co/) en Bogotá, Colombia. Mis intereses incluyen los procesos de elección de pareja, la comunicación vocal humana y la musicalidad. También estoy interesado en la bioacústica y la psicoacústica, así como los efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasionan los métodos cuantitativos y la programación en **R**, como herramienta para promover la reproducibilidad y la ciencia abierta.
 
 # Métodos de Investigación Principales
 
@@ -180,7 +180,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 # Investigación Abierta (canal de YouTube)
 
-[\textcolor{red}{\faYoutubePlay} \textcolor{teal}{Investigación Abierta} ](https://www.youtube.com/c/InvestigaciónAbierta) es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
+[\textcolor{red}{\faYoutubePlay} Investigación Abierta](https://www.youtube.com/c/InvestigaciónAbierta) es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -200,6 +200,8 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 \endgroup
 
+\newpage 
+
 # Supervisión de Posgrado y Pregrado
 
 ```{r supervision}
@@ -210,7 +212,7 @@ ezpickr::pick("data/supervision.xlsx") %>%
 
 # Roles Editoriales
 
-Mi registro verificado como par académico internacional está disponible en mi perfil de [\textcolor{teal}{Publons}](https://publons.com/researcher/1333339/juan-david-leongomez/).
+Mi registro verificado como par académico internacional está disponible en mi perfil de [Publons](https://publons.com/researcher/1333339/juan-david-leongomez/).
 
 ```{r service}
 ezpickr::pick("data/service.xlsx") %>%
@@ -230,11 +232,11 @@ ezpickr::pick("data/event.xlsx") %>%
 
 ## Actualmente
 
-  * [\textcolor{teal}{International Society for Human Ethology (ISHE)}](https://ishe.org/)
+  * [International Society for Human Ethology (ISHE)](https://ishe.org/)
   
 ## Anteriormente
 
-  * [\textcolor{teal}{European Human Behaviour and Evolution Association (EHBEA)}](https://www.cambridge.org/core/membership/ehbea)
-  * [\textcolor{teal}{Association for Psychological Science (APS)}](https://www.psychologicalscience.org/)
+  * [European Human Behaviour and Evolution Association (EHBEA)](https://www.cambridge.org/core/membership/ehbea)
+  * [Association for Psychological Science (APS)](https://www.psychologicalscience.org/)
 
 <!-- *`r Sys.Date()`* -->
