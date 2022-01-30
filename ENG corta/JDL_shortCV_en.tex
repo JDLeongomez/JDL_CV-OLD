@@ -20,10 +20,12 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
+\documentclass[11pt,a4paper,]{awesome-cv}
 
 % Configure page margins with geometry
+\usepackage{geometry}
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -118,7 +120,7 @@ quantitative methods, and reproducible science.}
 % Leave any of these blank if they are not needed
 % 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
 \makecvfooter
-  {06 January, 2022}
+  {30 January, 2022}
     {Juan David Leongómez~~~·~~~Curriculum Vitae}
   {\thepage}
 
@@ -333,5 +335,7 @@ Editor} for the
 My full, verified review record is available from my
 \href{https://publons.com/researcher/1333339/juan-david-leongomez/}{Publons}
 profile.
+
+
 
 \end{document}
