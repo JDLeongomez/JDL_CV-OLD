@@ -1,3 +1,5 @@
+Leongómez, J.D. (2022, April). *How reliable is the scientific literature? Open science as a strategy to address the implications of the naturalisation of bad practices and the replication crisis*. Presentation organised by the Research Unit of the Faculty of Psychology (Universidad El Bosque), Bogotá, Colombia. https://youtu.be/Fl98MoBqSaI
+
 Leongómez, J.D. (2020, November). *How many participants do I need? Statistical power analysis and sample size calculation in R*. Workshop presented at the Online International Congress of Neurosciences: Brain and Behaviour in times of COVID-19 (Universidad El Bosque, Universidad de los Andes), Bogotá, Colombia. https://youtu.be/tVB9sh5ZFH0
 
 Leongómez, J.D. & Sánchez, O. R. (2019, September). *Association between height and waist circumference with health in rural indigenous and urban populations in Latin America*. Paper presented at the XXV Institutional Research Congress (Universidad El Bosque), Bogotá, Colombia.
