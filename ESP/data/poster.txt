@@ -1,3 +1,5 @@
+Leongómez, J.D. (2022, Abril). *¿Qué tan confiable es la literatura científica? Ciencia abierta como estrategia para enfrentar las implicaciones de la naturalización de malas prácticas y la crisis de la replicación*. Presentación organizada por la Unidad de Investigaciones de la Facultad de Psicología (Universidad El Bosque), Bogotá, Colombia. https://youtu.be/Fl98MoBqSaI
+
 Leongómez, J.D. (2020, Noviembre). *¿Cuántos participantes necesito? Análisis de poder estadístico y cálculo de tamaño de muestra en  R*. Taller para el Congreso Internacional de Neurociencias: Cerebro y Comportamiento en Tiempos de COVID-19 (Universidad El Bosque, Universidad de los Andes), Bogotá, Colombia. https://youtu.be/tVB9sh5ZFH0
 
 Leongómez, J.D. & Sánchez, O. R. (2019, Septiembre). *Asociación entre altura y circunferencia de cintura con salud en poblaciones rurales indígenas y urbanas en América Latina*. Artículo presentado en el XXV Congreso Institucional de Investigaciones (Universidad El Bosque), Bogotá, Colombia.
@@ -30,6 +32,6 @@ Leongómez, J.D., & Roberts, S.C. (2012, Mayo). *The sound of sweet nothings: Ho
 
 Leongómez, J.D. (2013, Marzo). *Voice research techniques using Praat*. Taller en Scottish Universities Psychology Postgraduate Research Training – SUPPORT (University of Stirling), Stirling, Reino Unido.
 
-Leongómez, J.D., & Roberts, S.C. (2011, Febrero). *The sound of sweet nothings: How men and women modulate vocal parameters in speech directed towards attractive and unattractive individuals*. Presentación oral para el Behaviour and Evolution Research Group (University of Stirling), Stirling, Reino Unido.
+Leongómez, J.D., & Roberts, S.C. (2011, Febrero). *The sound of sweet nothings: How men and women modulate vocal parameters in speech directed towards attractive and unattractive individuals*. Presentación para el Behaviour and Evolution Research Group (University of Stirling), Stirling, Reino Unido.
 
 Leongómez, J.D., & Roberts, S.C. (2010, Diciembre). *Context-dependant modulation of vocal parameters*. Póster presentado en el Language of Music, the Music of Language; Meeting 2: Entrainment/Meaning (Centre for Music & Science, University of Cambridge), Cambridge, Reino Unido.
