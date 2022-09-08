@@ -213,7 +213,7 @@ ezpickr::pick("data/supervision.xlsx") %>%
 
 # Editorial Appointments
 
-My verified review record is available from my [Publons](https://publons.com/researcher/1333339/juan-david-leongomez/) profile. 
+My verified review record is available from my [Web of Science](https://www.webofscience.com/wos/author/record/387716) profile. 
 
 ```{r service}
 ezpickr::pick("data/service.xlsx") %>%

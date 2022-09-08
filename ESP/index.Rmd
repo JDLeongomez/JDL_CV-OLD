@@ -212,7 +212,7 @@ ezpickr::pick("data/supervision.xlsx") %>%
 
 # Roles Editoriales
 
-Mi registro verificado como par académico internacional está disponible en mi perfil de [Publons](https://publons.com/researcher/1333339/juan-david-leongomez/).
+Mi registro verificado como par académico internacional está disponible en mi perfil de [Web of Science](https://www.webofscience.com/wos/author/record/387716).
 
 ```{r service}
 ezpickr::pick("data/service.xlsx") %>%
