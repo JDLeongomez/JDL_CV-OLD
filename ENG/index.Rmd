@@ -117,6 +117,14 @@ ezpickr::pick("data/education.xlsx") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
 
+# Relevant further education
+
+```{r edu_comp}
+ezpickr::pick("data/edu_comp.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
 # Working Experience
 
 ```{r working-experience}
