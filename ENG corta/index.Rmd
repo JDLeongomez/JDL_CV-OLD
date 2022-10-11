@@ -11,10 +11,11 @@ profilepic: "../JDL.jpg"
 email: "jleongomez@unbosque.edu.co"
 github: JDLeongomez
 aboutme: |
-  I am a scientist mainly interested in human behaviour, as well as quantitative methods, and reproducible science.
+  I am a scientist mainly interested in human behaviour, as well as quantitative methods and reproducible science.
 date: "`r Sys.setlocale('LC_TIME','English');format(Sys.Date(),'%d %B, %Y')`"
 header-includes: \usepackage{multicol}
   \usepackage{xurl}
+  \RequirePackage{fancyhdr}
   \usepackage{fontawesome}
   \usepackage{xcolor}
   \usepackage{hyperref}
