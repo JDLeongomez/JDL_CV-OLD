@@ -1,3 +1,9 @@
+Leongómez, J.D. (2022, October). *jamovi face-to-face session*. Workshop for the Research Training Plan of the Vicerectory of Research (Universidad El Bosque), Bogotá, Colombia.
+
+Leongómez, J.D. (2022, September). *Introduction to jamovi: Modern, free, open source alternative for statistical analysis*. Presentation for the Research Training Plan of the Vicerectory of Research (Universidad El Bosque), Bogotá, Colombia. https://investigaciones.unbosque.edu.co/eventos/cuestioneseticas-jjnlm-92bkj-n249w-hbnhl-6tpj4-pm22x-8m3yh-645tt-gw59h-xwc6x-d9sgw-6fzel-hm6dd-2wrls-569m2-8zns8-rg363
+
+Leongómez, J.D. (2022, August). *Beyond Open Access: The need for comprehensive Open Science to address the implications of the naturalisation of malpractice and the replication crisis*. Presentation for the Research Training Plan of the Vicerectory of Research (Universidad El Bosque), Bogotá, Colombia. https://investigaciones.unbosque.edu.co/eventos/cuestioneseticas-jjnlm-92bkj-n249w-hbnhl-6tpj4-pm22x-8m3yh-645tt-gw59h-xwc6x-d9sgw-6fzel-hm6dd-2wrls-569m2-8zns8
+
 Leongómez, J.D. (2022, April). *How reliable is the scientific literature? Open science as a strategy to address the implications of the naturalisation of bad practices and the replication crisis*. Presentation organised by the Research Unit of the Faculty of Psychology (Universidad El Bosque), Bogotá, Colombia. https://youtu.be/Fl98MoBqSaI
 
 Leongómez, J.D. (2020, November). *How many participants do I need? Statistical power analysis and sample size calculation in R*. Workshop presented at the Online International Congress of Neurosciences: Brain and Behaviour in times of COVID-19 (Universidad El Bosque, Universidad de los Andes), Bogotá, Colombia. https://youtu.be/tVB9sh5ZFH0

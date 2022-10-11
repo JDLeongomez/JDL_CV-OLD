@@ -93,7 +93,7 @@ reproducible.}
 \newlength{\cslhangindent}
 \setlength{\cslhangindent}{1.5em}
 \newlength{\csllabelwidth}
-\setlength{\csllabelwidth}{3em}
+\setlength{\csllabelwidth}{2em}
 \newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
  {% don't indent paragraphs
   \setlength{\parindent}{0pt}
@@ -107,8 +107,8 @@ reproducible.}
  {}
 \usepackage{calc}
 \newcommand{\CSLBlock}[1]{#1\hfill\break}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \begin{document}
@@ -120,10 +120,6 @@ reproducible.}
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 % 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
-\makecvfooter
-  {12 septiembre, 2022}
-    {Juan David Leongómez~~~·~~~Curriculum Vitae}
-  {\thepage}
 
 
 %-------------------------------------------------------------------------------
@@ -229,6 +225,18 @@ Principales}\label{muxe9todos-de-investigaciuxf3n-principales}}
 \end{cvitems}}
 \end{cventries}
 
+\hypertarget{educaciuxf3n-complementaria-relevante}{%
+\section{Educación complementaria
+relevante}\label{educaciuxf3n-complementaria-relevante}}
+
+\begin{cventries}
+    \cventry{Practical Machine Learning}{Johns Hopkins University}{Coursera (MOOC platform)}{2021}{\begin{cvitems}
+\item Promedio: 97/100
+\item Certificado: https://www.coursera.org/account/accomplishments/verify/DC7ULMJ3CZWM
+\end{cvitems}}
+    \cventry{Statistical Programming in R and Linear Mixed Models}{University of Dundee}{Dundee, Reino Unido}{2012}{}\vspace{-4.0mm}
+\end{cventries}
+
 \hypertarget{experiencia-laboral}{%
 \section{Experiencia Laboral}\label{experiencia-laboral}}
 
@@ -320,7 +328,7 @@ Cambridge, MA, EE.UU.}{Sep. 2020}{\begin{cvitems}
 \item COP\$5.000.000
 \end{cvitems}}
     \cventry{Grindley Grants}{Experimental Psychology Society}{Canterbury, Reino Unido}{Sep. 2014}{}\vspace{-4.0mm}
-    \cventry{Becas Francisco José de Caldas}{Colciencias}{Bogotá, Colombia}{Oct. 2010 - Oct. 2014}{}\vspace{-4.0mm}
+    \cventry{Becas Francisco José de Caldas}{Minciencias}{Bogotá, Colombia}{Oct. 2010 - Oct. 2014}{}\vspace{-4.0mm}
     \cventry{Annual Prize in Evolutionary Psychology}{School of Life Sciences – University of Liverpool}{Liverpool, Reino Unido}{Oct. 2009}{\begin{cvitems}
 \item Mejor desempeño general en la maestría
 \end{cvitems}}
@@ -332,7 +340,7 @@ Cambridge, MA, EE.UU.}{Sep. 2020}{\begin{cvitems}
 \section{Subvenciones}\label{subvenciones}}
 
 \begin{cventries}
-    \cventry{Convocatoria programa de Estancias Postdoctorales beneficiarios Colciencias 2017}{Colciencias}{Bogota, Colombia}{Ene. 2018 - Ene. 2019}{\begin{cvitems}
+    \cventry{Convocatoria programa de Estancias Postdoctorales beneficiarios Colciencias 2017}{Minciencias}{Bogota, Colombia}{Ene. 2018 - Ene. 2019}{\begin{cvitems}
 \item Proyecto: Señales perceptibles de salud física y mental en rostros, voces y olores corporales, y su relación con niveles hormonales
 \item COP\$84.000.000
 \end{cvitems}}
@@ -670,6 +678,26 @@ Talleress}\label{presentaciones-en-conferencias-puxf3sters-y-talleress}}
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
+\textbf{Leongómez, J. D.} (2022, Octubre). \emph{Sesión presencial de
+jamovi}. Taller para el Plan de formación en investigación de la
+Vicerrectoría de Investigaciones (Universidad El Bosque), Bogotá,
+Colombia.
+
+\textbf{Leongómez, J. D.} (2022, Septiembre). \emph{Introducción a
+jamovi: Alternativa moderna, gratuita y de código abierto para la
+realización de análisis estadísticos}. Presentación organizada como
+parte del Plan de formación en investigación de la Vicerrectoría de
+Investigaciones (Universidad El Bosque), Bogotá, Colombia.
+\url{https://investigaciones.unbosque.edu.co/eventos/cuestioneseticas-jjnlm-92bkj-n249w-hbnhl-6tpj4-pm22x-8m3yh-645tt-gw59h-xwc6x-d9sgw-6fzel-hm6dd-2wrls-569m2-8zns8-rg363}
+
+\textbf{Leongómez, J. D.} (2022, Agosto). \emph{Más allá del Open
+Access: Necesidad de una Ciencia Abierta integral para enfrentar las
+implicaciones de la naturalización de malas prácticas y la crisis de la
+replicación}. Presentación organizada como parte del Plan de formación
+en investigación de la Vicerrectoría de Investigaciones (Universidad El
+Bosque), Bogotá, Colombia.
+\url{https://investigaciones.unbosque.edu.co/eventos/cuestioneseticas-jjnlm-92bkj-n249w-hbnhl-6tpj4-pm22x-8m3yh-645tt-gw59h-xwc6x-d9sgw-6fzel-hm6dd-2wrls-569m2-8zns8}
+
 \textbf{Leongómez, J. D.} (2022, Abril). \emph{¿Qué tan confiable es la
 literatura científica? Ciencia abierta como estrategia para enfrentar
 las implicaciones de la naturalización de malas prácticas y la crisis de
@@ -782,8 +810,6 @@ Entrainment/Meaning (Centre for Music \& Science, University of
 Cambridge), Cambridge, Reino Unido.
 
 \endgroup
-
-\newpage
 
 \hypertarget{supervisiuxf3n-de-posgrado-y-pregrado}{%
 \section{Supervisión de Posgrado y

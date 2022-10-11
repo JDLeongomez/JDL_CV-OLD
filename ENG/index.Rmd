@@ -11,7 +11,7 @@ profilepic: "../JDL.jpg"
 email: "jleongomez@unbosque.edu.co"
 github: JDLeongomez
 aboutme: |
-  I am a scientist mainly interested in human behaviour, as well as quantitative methods, and reproducible science.
+  I am a scientist mainly interested in human behaviour, as well as quantitative methods and reproducible science.
 date: "`r Sys.setlocale('LC_TIME','English');format(Sys.Date(),'%d %B, %Y')`"
 header-includes: \usepackage{multicol}
   \usepackage{xurl}
@@ -113,6 +113,14 @@ I am an Associate Professor and Researcher at the [Human Behaviour Lab (LACH)](h
 
 ```{r education}
 ezpickr::pick("data/education.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Relevant further education
+
+```{r edu_comp}
+ezpickr::pick("data/edu_comp.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
