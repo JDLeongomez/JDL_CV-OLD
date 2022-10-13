@@ -159,17 +159,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 # Publications
 
-## \textcolor{teal}{Preprints and Articles under Review}
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-::: {#refs_working_paper}
-:::
-\endgroup
-
-## \textcolor{teal}{Published Journal Articles and Works}
+## \textcolor{teal}{\textbf{Published Journal Articles and Works}}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -179,7 +169,17 @@ ezpickr::pick("data/grant.xlsx") %>%
 :::
 \endgroup
 
-## \textcolor{teal}{Divulgation articles}
+## \textcolor{teal}{\textbf{Preprints and Articles under Review}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_working_paper}
+:::
+\endgroup
+
+## \textcolor{teal}{\textbf{Divulgation articles}}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -239,11 +239,11 @@ ezpickr::pick("data/event.xlsx") %>%
 
 # Memberships
 
-## Current
+## \textbf{Current}
 
   * [International Society for Human Ethology (ISHE)](https://ishe.org/)
 
-## Past
+## \textbf{Past}
 
   * [European Human Behaviour and Evolution Association (EHBEA)](https://www.cambridge.org/core/membership/ehbea)
   * [Association for Psychological Science (APS)](https://www.psychologicalscience.org/)
