@@ -159,7 +159,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 # Publications
 
-## \textcolor{teal}{\textbf{Published Journal Articles and Works}}
+## \textbf{Published Journal Articles and Works}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -169,7 +169,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 :::
 \endgroup
 
-## \textcolor{teal}{\textbf{Preprints and Articles under Review}}
+## \textbf{Preprints and Articles under Review}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -179,7 +179,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 :::
 \endgroup
 
-## \textcolor{teal}{\textbf{Divulgation articles}}
+## \textbf{Divulgation articles}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
