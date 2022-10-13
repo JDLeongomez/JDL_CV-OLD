@@ -115,7 +115,7 @@ Para una lista completa, por favor visita la sección de publicaciones en mi [si
 
 # Investigación Abierta (canal de YouTube)
 
-[\textcolor{red}{\faYoutubePlay} Investigación Abierta](https://www.youtube.com/c/InvestigaciónAbierta) es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas práticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
+[\textcolor{red}{\faYoutubePlay} Investigación Abierta](https://www.youtube.com/@InvestigacionAbierta) es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas práticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
 
 
 # Supervisión de Posgrado

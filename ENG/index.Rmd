@@ -191,7 +191,7 @@ ezpickr::pick("data/grant.xlsx") %>%
 
 # Investigación Abierta (YouTube channel)
 
-[\textcolor{red}{\faYoutubePlay} Investigación Abierta](https://www.youtube.com/c/InvestigaciónAbierta) [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
+[\textcolor{red}{\faYoutubePlay} Investigación Abierta](https://www.youtube.com/@InvestigacionAbierta) [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
 
 \begingroup
 \setlength{\parindent}{-0.5in}
