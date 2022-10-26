@@ -7,7 +7,7 @@ position: "Associate Professor"
 address: "Faculty of Psychology, Universidad El Bosque"
 phone: (+57) 601-6489000 Ext. 1901
 www: jdleongomez.info
-profilepic: "../JDL.jpg"
+profilepic: "../Profile_pics/JDL.jpg"
 email: "jleongomez@unbosque.edu.co"
 github: JDLeongomez
 aboutme: |
@@ -26,8 +26,8 @@ csl: "csl/apa7-cv.csl"
 headcolor: 207373
 nocite: "@*"
 knit: bookdown::render_book
-bibliography_featured: "../featured.bib"
-bibliography_featured_preprint: "../featured_preprint.bib"
+bibliography_featured: "../bib/featured.bib"
+bibliography_featured_preprint: "../bib/featured_preprint.bib"
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
@@ -131,7 +131,7 @@ ezpickr::pick("data/supervision.xlsx") %>%
 
 # Editorial Appointments
 
-I recently served as a guest editor of a 2-part theme issue on [Philosophical Transactions B](https://royalsocietypublishing.org/journal/rstb) (check [Part 1](https://royalsocietypublishing.org/toc/rstb/2021/376/1840), [Part 2](https://royalsocietypublishing.org/toc/rstb/2022/377/1841)). I have served as an \textit{ad-hoc} reviewer for a variety of journals including [Proceedings of the Royal Society B: Biological Sciences](https://royalsocietypublishing.org/journal/rspb), [Royal Society Open Science](https://royalsocietypublishing.org/journal/rsos), [Evolution and Human Behavior](https://www.sciencedirect.com/journal/evolution-and-human-behavior), [Scientific Reports](https://www.nature.com/srep/), [Basic and Applied Social Psychology](https://www.tandfonline.com/toc/hbas20/current), [Cortex}](https://www.journals.elsevier.com/cortex), [Perception](https://journals.sagepub.com/home/pec),
+I recently served as a guest editor of a 2-part theme issue on [Philosophical Transactions B](https://royalsocietypublishing.org/journal/rstb) (check [Part 1](https://royalsocietypublishing.org/toc/rstb/2021/376/1840), [Part 2](https://royalsocietypublishing.org/toc/rstb/2022/377/1841)). I have served as an \textit{ad-hoc} reviewer for a variety of journals including [Proceedings of the Royal Society B: Biological Sciences](https://royalsocietypublishing.org/journal/rspb), [Royal Society Open Science](https://royalsocietypublishing.org/journal/rsos), [PLOS ONE](https://journals.plos.org/plosone/), [Evolution and Human Behavior](https://www.sciencedirect.com/journal/evolution-and-human-behavior), [Scientific Reports](https://www.nature.com/srep/), [Basic and Applied Social Psychology](https://www.tandfonline.com/toc/hbas20/current), [Cortex}](https://www.journals.elsevier.com/cortex), [Perception](https://journals.sagepub.com/home/pec),
 [Evolutionary Psychology](https://journals.sagepub.com/home/evp), and [Frontiers in Psychology](https://www.frontiersin.org/journals/psychology) where I am currently a [Review Editor](https://loop.frontiersin.org/people/438954/overview) for the [\textit{Evolutionary Psychology specialty section}](https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology).  My full, verified review record is available from my [Web of Science](https://www.webofscience.com/wos/author/record/387716) profile.
 
 <!-- *`r Sys.Date()`* -->

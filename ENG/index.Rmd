@@ -7,7 +7,7 @@ position: "Associate Professor"
 address: "Faculty of Psychology, Universidad El Bosque"
 phone: (+57) 601-6489000 Ext. 1901
 www: jdleongomez.info
-profilepic: "../JDL.jpg"
+profilepic: "../Profile_pics/JDL.jpg"
 email: "jleongomez@unbosque.edu.co"
 github: JDLeongomez
 aboutme: |
@@ -25,10 +25,10 @@ csl: "csl/apa7-cv.csl"
 headcolor: 207373
 nocite: "@*"
 knit: bookdown::render_book
-bibliography_journals: "../journal.bib"
-bibliography_divulgation: "../divulgation.bib"
-bibliography_working_paper: "../working_paper.bib"
-bibliography_IA: "../IA_en.bib"
+bibliography_journals: "../bib/journal.bib"
+bibliography_divulgation: "../bib/divulgation.bib"
+bibliography_working_paper: "../bib/working_paper.bib"
+bibliography_IA: "../bib/IA_en.bib"
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
